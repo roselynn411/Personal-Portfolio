@@ -1,0 +1,129 @@
+@import url(https://fonts.googleapis.com/css?family=Libre+Baskerville);
+body {
+  background-color: darksalmon;
+}
+h1 {
+  text-align: center;
+  font-family: 'Libre Baskerville';
+  background-color: peachpuff;
+  border: solid 10px black;
+}
+h2 {
+  font-family: 'Libre Baskerville';
+}
+h3 {
+  text-align: center;
+  font-family: 'Libre Baskerville';
+  background-color: peachpuff;
+  border: solid 8px black;
+}
+p {
+  font-family: 'Libre Baskerville';
+}
+* {
+  box-sizing: border-box;
+}
+li {
+  font-family: 'Libre Baskerville';
+}
+.menu{
+  font-weight: bold;
+  font-size: 20px;
+  float: left;
+  width: 20%;
+  color: #DDA0DD;
+}
+.menuitem {
+  padding: 8px;
+  margin-top: 7px;
+  border-bottom: 1px solid maroon; 
+}
+/* unvisited link */
+A:link {
+  color: maroon;
+}
+
+/* visited link */
+A:visited {
+  color: green;
+}
+
+/* mouse over link */
+A:hover {
+  color: purple;
+}
+
+/* selected link */
+A:active {
+  color: mediumblue;
+}
+.main {
+  float: left;
+  width: 60%;
+  padding: 0 20px;
+  overflow: hidden;
+}
+.right {
+  background-color: lightblue;
+  float: left;
+  width: 20%;
+  padding: 10px 15px;
+  margin-top: 7px;
+}
+#selfie {
+  width: 300px;
+  height: 300px;
+}
+#doodle {
+  width: 275px;
+  height: 370px;
+}
+h4 {
+  text-align: center;
+  background-color: papayawhip;
+  margin: 10px;
+}
+.thumbnail {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin: 20px;
+}
+#audre {
+  display: flex;
+  width: 200px;
+}
+#food {
+  display: flex;
+  width: 200px;
+}
+#buttercup {
+  display: flex;
+  width: 200px;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+#subject {
+  display: flex;
+  width: 100%;
+}
+
+@media only screen and (max-width:800px) {
+  /* For tablets: */
+  .main {
+    width: 80%;
+    padding: 0;
+  }
+  .right {
+    width: 100%;
+  }
+}
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width: 100%;
+  }
+}
